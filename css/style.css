@@ -92,24 +92,24 @@ main{
 #botao{
     position:relative;
     margin-top: 9%;
+    width: 80%;
 }
 #botao p{
     font-family: 'Fredoka';
     color: #fff;
-    font-size: 50px;
 }
 
 /*começo botão uiverse.io */
 
 .shadow__btn {
     font-family: 'Fredoka';
-    padding: 10px 20px;
+    padding: 2% 5%;
     border: none;
-    font-size: 17px;
+    font-size: 100%;
     color: #000;
     border-radius: 7px;
-    letter-spacing: 4px;
-    font-weight: 700;
+    letter-spacing: 2px;
+    font-weight: 30%;
     text-transform: uppercase;
     -webkit-transition: 0.5s;
     transition: 0.5s;
