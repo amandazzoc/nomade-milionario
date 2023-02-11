@@ -136,3 +136,47 @@ main{
                 0 0 60px #FDBF00;
   }
 /*fim botão uiverse.io */
+
+.card {
+    width: 10%;
+    width: 70%;
+    background: rgba(255, 255, 255, 0);
+    transition: 0.2s ease-in-out;
+  }
+  
+  .img {
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(#e66465, #9198e5);
+    display: flex;
+    align-items: top;
+    justify-content: right;
+  }
+  
+ 
+  
+  .text {
+    color: #FFF;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+  }
+  .text .h3 {
+    font-family: 'Fredoka';
+    font-size: 100%;
+    font-weight: 640;
+    overflow-y: hidden;
+  }
+  
+  .text .p {
+    font-family: 'Fredoka';
+    font-size: 90%;
+  }
+  
+
+  
+  .card:hover {
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(188, 199, 40, 0.445);
+  }
